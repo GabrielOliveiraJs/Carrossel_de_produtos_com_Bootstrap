@@ -1,0 +1,70 @@
+#carrosselpgindex {
+    margin-top: 5vw;
+}
+
+#carroselindex {
+    padding: 1vw 1vw 1vw 1vw;
+    width: 80vw;
+}
+
+.carousel-inner {
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.carousel-item div div a {
+    text-decoration: none;
+}
+
+.carousel-item div div a figure {
+    width: 12vw;
+    transition: box-shadow 0.6s;
+}
+
+.carousel-item div div a figure {
+    width: 10vw;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.carousel-item div div a figure img {
+    border-radius: 5px;
+}
+
+.carousel-item div div a figure:hover {
+    box-shadow: 2px 2px 8px 5px #000;
+}
+
+.carousel-item div div a figure figcaption {
+    font-size: 1vw;
+    color: #000;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 4vw;
+    height: 18vw;
+    position: relative;
+    border-radius: 6px;
+    transition: box-shadow 0.5s;
+}
+
+.carousel-control-next {
+    float: right;
+}
+
+.carousel-control-prev {
+    float: left;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    box-shadow: 0px 5px 10px 2px #000;
+}
+
+.carousel-control-prev:active, .carousel-control-next:active {
+    box-shadow: 1px 1px 1px 2px #000;
+    transition: box-shadow 0.2s;
+}
+
+.carousel-control-next span i, .carousel-control-prev span i {
+    color: #000;
+    font-size: 1vw;
+}
